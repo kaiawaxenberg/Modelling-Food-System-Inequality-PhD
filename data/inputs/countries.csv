@@ -1,0 +1,182 @@
+Iso3,Area,M49,Population,FaoArea,PlumGroup
+AFG,Afghanistan,4,37769.499,AFG,Afghanistan
+ALB,Albania,8,2873.883,ALB,Albania
+DZA,Algeria,12,42705.368,DZA,Algeria
+AGO,Angola,24,32353.588,AGO,Angola
+ARG,Argentina,32,44745.52,ARG,Argentina
+ARM,Armenia,51,2820.602,ARM,Armenia
+AUS,Australia,36,25357.17,AUS,Australia
+AUT,Austria,40,8879.94,AUT,Austria
+AZE,Azerbaijan,31,10232.753,AZE,Azerbaijan
+BHR,Bahrain,48,1494.188,ARE,Bahrain & Qatar
+QAT,Qatar,634,2807.235,ARE,Bahrain & Qatar
+BGD,Bangladesh,50,165516.222,BGD,Bangladesh
+BLR,Belarus,112,9673.971,BLR,Belarus
+LUX,Luxembourg,442,619.973,LUX,Belgium & Luxembourg
+BEL,Belgium,56,11510.568,BEL,Belgium & Luxembourg
+BEN,Benin,204,12290.444,BEN,Benin
+BTN,Bhutan,64,767.459,NPL,Bhutan
+BOL,Bolivia (Plurinational State of),68,11777.315,BOL,Bolivia
+BIH,Bosnia and Herzegovina,70,3360.711,BIH,Bosnia and Herzegovina
+BWA,Botswana,72,2499.702,BWA,Botswana
+BRA,Brazil,76,211782.878,BRA,Brazil
+BGR,Bulgaria,100,7052.532,BGR,Bulgaria
+BFA,Burkina Faso,854,20951.639,BFA,Burkina Faso
+BDI,Burundi,108,11874.838,BDI,Burundi
+KHM,Cambodia,116,16207.746,KHM,Cambodia
+CMR,Cameroon,120,25782.341,CMR,Cameroon
+CAN,Canada,124,37522.584,CAN,Canada
+VCT,Saint Vincent and the Grenadines,670,104.924,VCT,Caribbean Other
+GRD,Grenada,308,122.724,GRD,Caribbean Other
+LCA,Saint Lucia,662,178.583,LCA,Caribbean Other
+BRB,Barbados,52,280.18,BRB,Caribbean Other
+BHS,Bahamas,44,404.557,BHS,Caribbean Other
+TTO,Trinidad and Tobago,780,1519.955,TTO,Caribbean Other
+JAM,Jamaica,388,2813.773,JAM,Caribbean Other
+CAF,Central African Republic,140,5209.324,CAF,Central African Republic
+TCD,Chad,148,16126.866,TCD,Chad
+CHL,Chile,152,19039.485,CHL,Chile
+CHN,China,159,1430023.806,CHN,China
+COL,Colombia,170,50187.406,COL,Colombia
+COG,Congo,178,5570.733,COG,Congo
+CRI,Costa Rica,188,5084.532,CRI,Costa Rica
+CIV,Cote d'Ivoire,384,26147.551,CIV,Cote dIvoire
+HRV,Croatia,191,4129.752,HRV,Croatia
+CUB,Cuba,192,11316.697,CUB,Cuba
+CYP,Cyprus,196,1228.836,CYP,Cyprus
+CZE,Czechia,203,10536.871,CZE,Czechia
+DNK,Denmark,208,5795.878,DNK,Denmark
+DJI,Djibouti,262,1073.994,DJI,Djibouti
+DOM,Dominican Republic,214,10881.882,DOM,Dominican Republic
+COD,Democratic Republic of the Congo,180,89906.89,COD,DR Congo
+ECU,Ecuador,218,17343.74,ECU,Ecuador
+EGY,Egypt,818,105618.671,EGY,Egypt
+SLV,El Salvador,222,6280.217,SLV,El Salvador
+GNQ,Equatorial Guinea,226,1553.031,GAB,Equatorial Guinea
+ERI,Eritrea,232,3498.818,ETH,Eritrea
+EST,Estonia,233,1327.039,EST,Estonia
+SWZ,Eswatini,748,1169.613,SWZ,Eswatini
+ETH,Ethiopia,231,114120.594,ETH,Ethiopia
+FIN,Finland,246,5521.537,FIN,Finland
+FRA,France,250,64399.759,FRA,France
+STP,Sao Tome and Principe,678,214.599,STP,Gabon & Sao Tome
+GAB,Gabon,266,2242.785,GAB,Gabon & Sao Tome
+GEO,Georgia,268,3770.811,GEO,Georgia
+DEU,Germany,276,83148.141,DEU,Germany
+GHA,Ghana,288,31522.29,GHA,Ghana
+GRC,Greece,300,10574.024,GRC,Greece
+BLZ,Belize,84,389.095,BLZ,Guatemala & Belize
+GTM,Guatemala,320,17106.338,GTM,Guatemala & Belize
+GIN,Guinea,324,12877.539,GIN,Guinea
+GNB,Guinea-Bissau,624,1970.457,GNB,Guinea-Bissau
+GUY,Guyana,328,798.753,GUY,Guyana
+HTI,Haiti,332,11160.438,HTI,Haiti
+HND,Honduras,340,9958.829,HND,Honduras
+HUN,Hungary,348,9771.796,HUN,Hungary
+ISL,Iceland,352,360.774,ISL,Iceland
+IND,India,356,1383112.05,IND,India
+IDN,Indonesia,360,269582.878,IDN,Indonesia
+IRN,Iran (Islamic Republic of),364,86564.202,IRN,Iran
+IRQ,Iraq,368,41563.52,IRQ,Iraq
+IRL,Ireland,372,4896.019,IRL,Ireland
+ISR,Israel,376,8607.919,ISR,Israel
+MLT,Malta,470,503.635,MLT,Italy & Malta
+ITA,Italy,380,59727.932,ITA,Italy & Malta
+JPN,Japan,392,125791.677,JPN,Japan
+JOR,Jordan,400,10698.683,JOR,Jordan
+KAZ,Kazakhstan,398,18754.258,KAZ,Kazakhstan
+KEN,Kenya,404,50951.45,KEN,Kenya
+KWT,Kuwait,414,4441.1,KWT,Kuwait
+KGZ,Kyrgyzstan,417,6323.643,KGZ,Kyrgyzstan
+LAO,Lao People's Democratic Republic,418,7212.053,LAO,Laos
+LVA,Latvia,428,1916.555,LVA,Latvia
+LBN,Lebanon,422,5781.907,LBN,Lebanon
+LSO,Lesotho,426,2225.702,LSO,Lesotho
+LBR,Liberia,430,4985.289,LBR,Liberia
+LBY,Libya,434,6569.088,LBY,Libya
+LTU,Lithuania,440,2849.083,LTU,Lithuania
+COM,Comoros,174,790.986,COM,Madagascar & Indian Ocean
+MUS,Mauritius,480,1296.279,MUS,Madagascar & Indian Ocean
+MDG,Madagascar,450,27533.134,MDG,Madagascar & Indian Ocean
+MWI,Malawi,454,18867.337,MWI,Malawi
+BRN,Brunei Darussalam,96,438.048,MYS,Malaysia Singapore & Brunei
+SGP,Singapore,702,5866.405,TWN,Malaysia Singapore & Brunei
+MYS,Malaysia,458,32804.02,MYS,Malaysia Singapore & Brunei
+MLI,Mali,466,20567.424,MLI,Mali
+MRT,Mauritania,478,4383.849,MRT,Mauritania
+MEX,Mexico,484,125085.311,MEX,Mexico
+MDA,Republic of Moldova,498,3109.491,MDA,Moldova
+MNG,Mongolia,496,3232.43,MNG,Mongolia
+MNE,Montenegro,499,630.396,MNE,Montenegro
+MAR,Morocco,504,36304.408,MAR,Morocco
+MOZ,Mozambique,508,30285.595,MOZ,Mozambique
+MMR,Myanmar,104,53040.212,MMR,Myanmar
+NAM,Namibia,516,2446.644,NAM,Namibia
+NPL,Nepal,524,28832.496,NPL,Nepal
+NLD,Netherlands,528,17363.262,NLD,Netherlands
+NZL,New Zealand,554,4959.034,NZL,New Zealand
+NIC,Nicaragua,558,6663.924,NIC,Nicaragua
+NER,Niger,562,23443.393,NER,Niger
+NGA,Nigeria,566,203304.492,NGA,Nigeria
+PRK,Democratic People's Republic of Korea,408,25755.441,PRK,North Korea
+MKD,North Macedonia,807,2114.176,MKD,North Macedonia
+NOR,Norway,578,5348.279,NOR,Norway
+OMN,Oman,512,4602.768,OMN,Oman
+WSM,Samoa,882,211.905,WSM,Pacific Other
+NCL,New Caledonia,540,285.374,NCL,Pacific Other
+PYF,French Polynesia,258,299.717,PYF,Pacific Other
+VUT,Vanuatu,548,304.404,VUT,Pacific Other
+SLB,Solomon Islands,90,674.993,SLB,Pacific Other
+FJI,Fiji,242,918.465,FJI,Pacific Other
+PAK,Pakistan,586,223293.28,PAK,Pakistan
+PAN,Panama,591,4232.532,PAN,Panama
+PNG,Papua New Guinea,598,9542.486,PNG,Papua New Guinea
+PRY,Paraguay,600,6530.026,PRY,Paraguay
+PER,Peru,604,32824.861,PER,Peru
+PHL,Philippines,608,110380.804,PHL,Philippines
+POL,Poland,616,38493.601,POL,Poland
+PRT,Portugal,620,10289.923,PRT,Portugal
+ROU,Romania,642,19524.211,ROU,Romania
+RUS,Russian Federation,643,145742.286,RUS,Russia
+RWA,Rwanda,646,12835.028,RWA,Rwanda
+SAU,Saudi Arabia,682,35827.362,SAU,Saudi Arabia
+CPV,Cabo Verde,132,577.03,CPV,Senegal Gambia & Cabo Verde
+GMB,Gambia,270,2508.883,GMB,Senegal Gambia & Cabo Verde
+SEN,Senegal,686,16000.781,SEN,Senegal Gambia & Cabo Verde
+SRB,Serbia,688,7401.056,SRB,Serbia
+SLE,Sierra Leone,694,8046.828,SLE,Sierra Leone
+SVK,Slovakia,703,5453.924,SVK,Slovakia
+SVN,Slovenia,705,2112.901,SVN,Slovenia
+SOM,Somalia,706,15981.3,ETH,Somalia
+ZAF,South Africa,710,58087.055,ZAF,South Africa
+KOR,Republic of Korea,410,51803.829,KOR,South Korea
+SSD,South Sudan,728,10447.666,SDN,South Sudan
+ESP,Spain,724,47131.372,ESP,Spain
+MDV,Maldives,462,504.508,MDV,Sri Lanka & Maldives
+LKA,Sri Lanka,144,21649.664,LKA,Sri Lanka & Maldives
+SDN,Sudan,729,43232.093,SDN,Sudan
+SUR,Suriname,740,600.301,SUR,Suriname
+SWE,Sweden,752,10267.922,SWE,Sweden
+CHE,Switzerland,756,8575.588,CHE,Switzerland
+SYR,Syrian Arab Republic,760,20098.251,SYR,Syria
+TWN,Taiwan,158,23777.737,TWN,Taiwan
+TJK,Tajikistan,762,9337.003,TJK,Tajikistan
+TZA,United Republic of Tanzania,834,59872.579,TZA,Tanzania
+THA,Thailand,764,71307.763,THA,Thailand
+TLS,Timor-Leste,626,1280.438,TLS,Timor-Leste
+TGO,Togo,768,8243.094,TGO,Togo
+TUN,Tunisia,788,12049.314,TUN,Tunisia
+TUR,Turkiye,792,83481.684,TUR,Turkiye
+TKM,Turkmenistan,795,6158.42,TKM,Turkmenistan
+UGA,Uganda,800,42949.08,UGA,Uganda
+UKR,Ukraine,804,44211.094,UKR,Ukraine
+ARE,United Arab Emirates,784,9211.657,ARE,United Arab Emirates
+GBR,United Kingdom,826,66778.659,GBR,United Kingdom
+USA,United States of America,840,334319.671,USA,United States of America
+URY,Uruguay,858,3428.409,URY,Uruguay
+UZB,Uzbekistan,860,32976.948,UZB,Uzbekistan
+VEN,Venezuela (Bolivarian Republic of),862,28971.683,VEN,Venezuela
+VNM,Viet Nam,704,95776.716,VNM,Viet Nam
+YEM,Yemen,887,31546.691,YEM,Yemen
+ZMB,Zambia,894,18380.477,ZMB,Zambia
+ZWE,Zimbabwe,716,15354.608,ZWE,Zimbabwe
