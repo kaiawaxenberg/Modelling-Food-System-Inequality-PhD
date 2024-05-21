@@ -2,7 +2,7 @@
 
 Project: Modelling Inequality in the Future Food System using PLUMv2
 
-Overview: This repository contains all the necessary files and scripts for data analysis, data preparation, and figure generation related to my PhD project "Modelling income inequality in the future food system." This work utilises the PLUMv2 model. The repository is organized into different directories for better navigation and understanding.
+Overview: This repository contains all the necessary files and scripts for data analysis, data preparation, and figure generation related to my PhD project "Modelling income inequality in the future food system." This work utilises the PLUMv2 model, for which data and scripts are hosted on gitlabs. Results files which are too large to store on GitHub are hosted on the University of Edinburgh supercomputer cluster, EDDIE. 
 
 Repository Structure:
 
