@@ -10,7 +10,7 @@ Repository Structure:
 
 **data_preparation/:** Contains scripts for preparing and cleaning raw data for analysis.
 
-**figures/:** Contains scripts and code for generating figures and visualizations used in the PhD thesis and intermediate reports.
+**visualisations/:** Contains scripts and code for generating figures and visualizations used in the PhD thesis and intermediate reports.
 
 
 To run the scripts in this repository, you will need to have the following software and packages installed:
