@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 
-setwd("C:/Users/kwaxenberg/Documents/LandSymm/Disaggregation Results/results data")
+setwd("C:/Users/kwaxenberg/Documents/results/resultsData/May2024_ssp1_test")
 
 #load in SSP1 results without inequality
 countryDemandOpt_ssp1_0 = read.csv("SSP1_ssp15/countryDemandOpt.txt")

@@ -2,7 +2,7 @@ library(dplyr)
 library(ggplot2)
 library(data.table)
 
-setwd("C:/Users/kwaxenberg/Documents/LandSymm/Inequality models/data")
+setwd("C:/Users/kwaxenberg/Documents/inputData/inequalityData")
 
 ########R script to translate the gini coefficient to income distribution##############
 ########Code adapted from Narayan et al, 2023#############
