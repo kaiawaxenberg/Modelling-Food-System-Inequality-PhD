@@ -21,7 +21,7 @@ globalDemand = merge(globalDemand0, globalDemandDec, by="Year", all=T)
 ggplot(data=globalDemand, aes(x=Year)) +
   geom_line(aes(y = totalFoodDemand0, color = "Stable inequality")) + 
   geom_line(aes(y = totalFoodDemandDec, color = "Changing inequality")) + 
-  labs(title = "SSP1 food demand with and without inequality",
+  labs(title = "SSP1 food demand",
        x = "Year",
        y = "Global food Demand (million T)",
        color = "Scenario")
@@ -30,13 +30,23 @@ demand2100 = globalDemand[which(globalDemand$Year == 2100),]
 
 
 ##trying to understand the patterns
-globalDemand0_commodity = countryDemand_ssp1_0 %>% group_by(Year, Commodity) %>% summarise(totalDemand = sum(Demand))
+globalDemand0_commodity = countryDemand_ssp1_0 %>% group_by(Year, Commodity) %>% summarise(totalDemand0 = sum(Demand))
+globalDemandDec_commodity = countryDemand_ssp1_dec %>% group_by(Year, Commodity) %>% summarise(totalDemandDec = sum(Demand))
+globalDemand_commodity = merge(globalDemand0_commodity, globalDemandDec_commodity, by=c("Year", "Commodity"), all=T)
 
-ggplot(data=globalDemand0_commodity, aes(x=Year,y = totalDemand, color = Commodity)) +
-  geom_line()+
+ggplot(data=globalDemand_commodity, aes(x=Year, color = Commodity)) +
+  geom_line(aes(y = totalDemand0, linetype = "Stable inequality")) + 
+  geom_line(aes(y = totalDemandDec, linetype = "Changing inequality")) + 
   labs(title = "SSP1 food demand",
        x = "Year",
        y = "Global food Demand (million T)",
        color = "Commodity")
 
+globalPrice0_commodity = countryDemand_ssp1_0 %>% group_by(Year, Commodity) %>% summarise(avgConsPrice = mean(ConsumerPrice))
 
+ggplot(data=globalPrice0_commodity, aes(x=Year,y = avgConsPrice, color = Commodity)) +
+  geom_line()+
+  labs(title = "SSP1 food demand",
+       x = "Year",
+       y = "Average consumer Price",
+       color = "Commodity")
