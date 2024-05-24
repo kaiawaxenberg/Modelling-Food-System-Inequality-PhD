@@ -4,23 +4,14 @@ library(forcats)
 setwd("C:/Users/kwaxenberg")
 
 #Load data
-gamsDemand = read.csv("Documents/LandSymm/Disaggregation Results/results data/ssp1_inequality_test/countryDemandOpt.txt") #load countryDemandOpt.txt from the calibration run
-countryDemand = read.csv("Documents/LandSymm/Disaggregation Results/results data/ssp1_inequality_test/countryDemand.txt") #load countryDemand.txt from the calibration run
+gamsDemand = read.csv("Documents/results/resultsData/calib/countryDemandOpt.txt") #load countryDemandOpt.txt from the calibration run
+countryDemand = read.csv("Documents/results/resultsData/calib/countryDemand.txt") #load countryDemand.txt from the calibration run
 baseDemand = read.csv("git/plumv2/data/base_consump.csv")
 countries = read.csv("git/plumv2/data/countries.csv")
 kcal = read.csv("git/plumv2/data/calories_per_t.csv")
 
 gamsDemand = left_join(gamsDemand, countries, join_by(Country == Area))
-gamsDemand =  gamsDemand %>% mutate(decile = case_when(decile == "d10" ~ "10",
-                            decile == "d9" ~ "9",
-                            decile == "d8" ~ "8",
-                            decile == "d7" ~ "7",
-                            decile == "d6" ~ "6",
-                            decile == "d5" ~ "5",
-                            decile == "d4" ~ "4",
-                            decile == "d3" ~ "3",
-                            decile == "d2" ~ "2",
-                            decile == "d1" ~ "1"))
+gamsDemand =  gamsDemand %>% mutate(decile = as.double(substring(decile, 2)))
 
 country = "IND"
 year = 2020
@@ -30,17 +21,12 @@ undefined = gamsDemand %>% filter(status == "UNDEFINED_STAT")
 unique(undefined$Country)
 hungry = gamsDemand %>% filter(hungerFactor>0)
 
-###########Plot changes in prices
-globalAveragePrice = gamsDemand %>% group_by(commodity, Year) %>% summarise(avgPrice = mean(price))
-ggplot(globalAveragePrice[which(globalAveragePrice$commodity!="Nonfood"),], aes(x = Year, y = avgPrice, colour = commodity))+
-  geom_line()
-
 ############ Plot kcal demand by income group for a single country ###############
 countryYearDemand = gamsDemand %>% filter(Iso3 == country, Year == year, commodity != "Nonfood")
 
 #add baseline kcal per person per day
 baseDemandKcal = left_join(baseDemand, kcal, join_by(Iso3, plumDemandItem))
-baseDemandKcal = baseDemandKcal %>% mutate(rebasedKcal = baseCpc * kcalPerT/365, decile = "combined") %>% 
+baseDemandKcal = baseDemandKcal %>% mutate(rebasedKcal = 40* baseCpc * kcalPerT/365, decile = 0) %>% 
   rename(commodity = plumDemandItem)
 countryYearDemand_joined = bind_rows(list(countryYearDemand, baseDemandKcal[which(baseDemand$Iso3 == country),]), )
 
@@ -53,8 +39,7 @@ ggplot(countryYearDemand_joined, aes(x = decile, y = rebasedKcal, fill = commodi
        color = "Commodity group") +
   theme_minimal()+
   theme(plot.title = element_text(hjust = 0.5, size = 14), text=element_text(size = 12))+
-  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.title = element_blank())+
-  scale_x_discrete(limits=c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "combined"))
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),legend.title = element_blank())
 
 ################Check demand vs base demand##################
 totalDemand = gamsDemand %>% filter(commodity != "Nonfood") %>% group_by(Iso3, Year, commodity) %>% summarise(rebasedTonnesPc = sum(plumRebased, na.rm=TRUE)/400)
@@ -75,7 +60,7 @@ countryJoined = left_join(countryDemand, countries, join_by(Country==Area)) %>%
   mutate(plumCpc = (Demand * (10^6))/(Population * (10^3))) %>%
   mutate(fao_diff = (plumCpc - baseCpc))
 
-countryJoined2020 = countryJoined %>% filter(Year ==2055)
+countryJoined2020 = countryJoined %>% filter(Year ==2020)
 
 ggplot(countryJoined2020, aes(x = baseCpc, y = plumCpc))+
   geom_point()
